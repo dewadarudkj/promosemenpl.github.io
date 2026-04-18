@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Harga Promo Semen Merah Putih</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	
+	<!-- bagian header template -->
+	<header>
+	</header>
+	<!-- akhir bagian header template -->
+	
+	<div class="wrap">
+		<!-- bagian menu		
+		<nav class="menu">
+			<ul>
+				<li>
+					<a href="#">Promo Semen Merah Putih</a>
+				</li>
+				<!-- 
+				<li>
+					<a href="#">Kontak</a>
+				</li>
+
+			</ul>
+		</nav> -->
+ 
+		<!-- bagian konten Blog -->
+		<div class="blog">
+			<div class="conteudo">
+				<h1 style="color:#e2d516;"> PROMO TERBARU </h1>
+				<hr>
+				<p style="font-size: 25px;">
+					Promo sesuai tanggal dan dengan syarat dan ketentuan yang berlaku. <br>
+				</p>	
+				<iframe src="https://script.google.com/macros/s/AKfycbz-AmGZydV595K8SDz86_3BxYLYGfHdsX367Dbr_BcUReX2GC4c0vOLVLwWCazUeYnc/exec" width="100%" frameborder="0" height="345px"></iframe>
+					
+			</div>
+			<div class="conteudo">	
+				<!-- <img src="https://www.malasngoding.com/wp-content/uploads/2016/02/tutorial-html-bahasa-indonesia.png"> -->
+				<h1> ORDER PROMO </h1>
+				<hr>
+				<p style="font-size: 25px;">
+					Tertarik dengan harga promosi diatas, silahkan isi form dibawah ini dan Kirim. <br>
+				</p>		
+								
+				<div class="container_isi">
+				<form action="https://script.google.com/macros/s/AKfycbxj8emcjHtmszIHdAAb7Eo60C143v69vxH-8FkDTB30G_4dlRph1_H0XfbHA-LRqXSqgQ/exec" onsubmit="handleFormSubmit(this)" method="POST">
+					
+					<div class="form-group">
+						<label for="kdcust">KODE CUSTOMER / TOKO :</label>
+						<input type="text" id="kdcust" name="kdcust" placeholder="Masukkan Kode Customer / Toko" >
+					</div>
+					
+					<div class="form-group">
+						<label for="nmcust">NAMA CUSTOMER / TOKO :</label>
+						<input type="text" id="nmcust" name="nmcust" placeholder="Masukkan Nama Customer / Toko" required>
+					</div>
+					
+					<div class="form-group">
+						<label for="hpcust">NO HP / WHATSAPP :</label>
+						<input type="number" id="hpcust" name="hpcust" placeholder="Masukkan No HP / WA" required>
+					</div>
+					
+					<div class="form-group">
+					<label for="promokota">PROMO KOTA : </label>		
+					<select name="promo_kota" id="promo_kota" style="width: 300px; height: 40px; font-size: 23px;">
+					  <option value="Balikpapan">Balikpapan</option>
+					  <option value="Samarinda">Samarinda</option>
+					  <option value="Ikn">IKN</option>
+					</select><br><br>
+					</div>
+					
+					<div class="form-group">
+					<label for="promoharga">PROMO HARGA : </label>		
+					<select name="promo_harga" id="promo_harga"  style="width: 300px; height: 40px; font-size: 23px;">
+					  <option value="Promo LOCO">Promo LOCO</option>
+					  <option value="Promo Antar">Promo Antar</option>
+					  <option value="Promo Khusus">Promo Khusus</option>
+					</select><br><br>
+					</div>
+					
+					<div class="form-group">
+					<label for="promoproduk">PRODUK : </label>		
+					<select name="promo_produk" id="promo_produk"  style="width: 300px; height: 40px; font-size: 23px;">
+					  <option value="MP BAG 50 KG">MP BAG 50 KG</option>
+					  <option value="MP BAG 50 KG">MP BAG 40 KG</option>
+					</select><br><br>
+					</div>
+
+					<div class="form-group">
+						<label for="qtyorder">JUMLAH ORDER :</label>
+						<input type="number" id="qtyorder" name="qtyorder" placeholder="Masukkan Jumlah yg akan di order" min="1" required>
+					<br><br>
+					<button type="submit" class="btn-besar">KIRIM</button>
+					</div><br>
+									
+					<p style="font-size: 28px;">* Tim Sales kami akan menghubungi kembali untuk konfirmasi <br>
+					</p>				
+				</form>
+				
+				<script>
+					function handleFormSubmit(formObject) {
+						event.preventDefault(); // Mencegah reload halaman default
+					
+					// Eksekusi fungsi di Kode.gs
+						google.script.run
+						.withSuccessHandler(function() {
+						alert('Form berhasil dikirim!')
+						// Alihkan ke URL tujuan setelah sukses
+						window.top.location.href = "https://google.com"; 
+						}
+					}
+					
+					function onSuccess(response) {
+						alert("Berhasil: " + response);
+						// Tambahkan logika UI (contoh: reset form)
+					}				
+
+					function onFailure(error) {
+						alert("Gagal: " + error.message);
+					}					
+				</script>
+				
+				</div>	
+				<!-- </div> -->
+			</div>
+		</div>
+		<!-- akhir bagian konten Blog -->
+	</div>
+	
+</body>
+</html>
